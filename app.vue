@@ -3,22 +3,26 @@ useHead({
   title: "JROCH",
   meta: [
     { charset: "utf-8" },
+    { link: "/nuxt.svg", rel: "icon" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
     { name: "color-scheme", content: "only dark" },
     {
-      hid: "description",
       name: "description",
-      content: "JROCH is a web development company based in the Philippines.",
+      content:
+        "This website created for testing the Nuxt abilities in creating web apps.",
     },
     {
-      hid: "og:title",
       property: "og:title",
-      content: "JROCH",
+      content: "JROCH - Nuxt",
     },
     {
-      hid: "og:description",
       property: "og:description",
-      content: "JROCH is a web development company based in the Philippines.",
+      content:
+        "This website created for testing the Nuxt abilities in creating web apps.",
+    },
+    {
+      property: "og:image",
+      content: "/nuxt.svg",
     },
   ],
 });

@@ -9,4 +9,8 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  runtimeConfig: {
+    notionApiKey: process.env.NOTION_API_KEY,
+    notionDbId: process.env.NOTION_DB_ID,
+  },
 });
