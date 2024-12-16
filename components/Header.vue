@@ -9,10 +9,10 @@ const navLinks = [
 
 <template>
   <header
-    class="w-full h-max border-b-2 border-green-500 sticky top-0 z-50 left-0 backdrop-blur-lg backdrop-brightness-25"
+    class="w-full h-max sticky top-0 z-50 left-0 backdrop-blur-lg backdrop-brightness-25 shadow-sm shadow-green-500"
   >
     <nav
-      class="lg:flex-row lg:max-w-[1200px] lg:mx-auto lg:flex justify-between items-center py-4"
+      class="lg:flex-row lg:max-w-[1200px] lg:mx-auto lg:flex justify-between items-center py-6"
     >
       <NuxtLink
         class="text-3xl text-white font-bold duration-200 hover:text-green-500"
