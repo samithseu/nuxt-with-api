@@ -15,7 +15,7 @@ const navLinks = [
       class="container mx-auto max-w-[1200px] px-4 xl:px-0 flex flex-col items-center gap-4 py-6 md:flex-row md:items-center md:justify-between"
     >
       <NuxtLink
-        class="text-3xl font-bold text-green-200 duration-300 hover:scale-105 hover:text-green-500"
+        class="text-3xl font-bold duration-300 hover:scale-105 hover:text-green-500"
         to="/"
         >JROCH</NuxtLink
       >

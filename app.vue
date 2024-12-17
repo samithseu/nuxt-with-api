@@ -1,11 +1,11 @@
 <script setup>
 useHead({
-  title: "JROCH",
+  title: "JROCH - Nuxt with API",
   meta: [
-    { charset: "utf-8" },
-    { name: "viewport", content: "width=device-width, initial-scale=1" },
-    { rel: "shortcut icon", href: "/nuxt.svg", type: "image/x-icon" },
+    { charset: "UTF-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1.0" },
     { name: "color-scheme", content: "only dark" },
+    { rel: "shortcut icon", href: "favicon.ico", type: "image/x-icon" },
     {
       name: "description",
       content:
@@ -13,7 +13,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "JROCH - Nuxt w/ API",
+      content: "JROCH - Nuxt with API",
     },
     {
       property: "og:description",
@@ -26,7 +26,7 @@ useHead({
     },
     {
       property: "og:image",
-      content: "/cover.jpg",
+      content: "cover.webp",
     },
     {
       property: "og:url",
