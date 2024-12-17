@@ -10,7 +10,7 @@ useHead({
 
 <template>
   <div>
-    <p class="text-lg text-justify indent-16">
+    <p lang="en" class="text-lg text-justify indent-16">
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odit numquam
       quis dignissimos tenetur nesciunt earum, itaque quae, vero saepe, maiores
       totam obcaecati repellat. Quidem, doloribus fuga aut magnam ad error

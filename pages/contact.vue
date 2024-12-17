@@ -10,7 +10,7 @@ useHead({
 <template>
   <div>
     <h1 class="text-2xl text-green-500 font-bold mb-4">Contact</h1>
-    <p>
+    <p lang="en">
       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque quae
       voluptatem recusandae labore esse nostrum beatae nobis laudantium
       doloribus accusantium ullam perferendis, similique temporibus laborum

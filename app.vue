@@ -3,8 +3,8 @@ useHead({
   title: "JROCH",
   meta: [
     { charset: "utf-8" },
-    { link: "/nuxt.svg", rel: "icon" },
     { name: "viewport", content: "width=device-width, initial-scale=1" },
+    { rel: "shortcut icon", href: "/nuxt.svg", type: "image/x-icon" },
     { name: "color-scheme", content: "only dark" },
     {
       name: "description",
@@ -13,7 +13,7 @@ useHead({
     },
     {
       property: "og:title",
-      content: "JROCH - Nuxt",
+      content: "JROCH - Nuxt w/ API",
     },
     {
       property: "og:description",
@@ -21,8 +21,16 @@ useHead({
         "This website created for testing the Nuxt abilities in creating web apps.",
     },
     {
+      property: "og:type",
+      content: "website",
+    },
+    {
       property: "og:image",
-      content: "/nuxt.svg",
+      content: "/cover.jpg",
+    },
+    {
+      property: "og:url",
+      content: "https://jroch-nuxt.netlify.app",
     },
   ],
 });

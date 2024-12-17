@@ -13,7 +13,7 @@ useHead({
     <h1 class="text-2xl text-green-500 font-bold mb-4">
       Blog {{ route.params.id }}
     </h1>
-    <p>
+    <p lang="en">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt sit
       voluptatibus alias. Sequi nostrum deleniti obcaecati dolorum doloribus
       libero provident quam accusamus repellendus. Animi sit ipsum, debitis id
