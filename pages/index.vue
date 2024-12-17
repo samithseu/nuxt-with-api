@@ -4,7 +4,7 @@ definePageMeta({
 });
 
 useHead({
-  title: "Homepage - JROCH",
+  titleTemplate: "Home - %s",
 });
 </script>
 

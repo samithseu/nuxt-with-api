@@ -3,7 +3,7 @@ definePageMeta({
   layout: "default",
 });
 useHead({
-  title: "Contact - JROCH",
+  titleTemplate: "Contact - %s",
 });
 </script>
 

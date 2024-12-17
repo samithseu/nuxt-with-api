@@ -3,7 +3,7 @@ definePageMeta({
   layout: "default",
 });
 useHead({
-  title: "About - JROCH",
+  titleTemplate: "About - %s",
 });
 
 const { data: todos } = await useFetch("/api/todos");

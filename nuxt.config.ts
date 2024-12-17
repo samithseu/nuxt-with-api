@@ -12,5 +12,8 @@ export default defineNuxtConfig({
   runtimeConfig: {
     notionApiKey: process.env.NOTION_API_KEY,
     notionDbId: process.env.NOTION_DB_ID,
+    public: {
+      baseUrl: process.env.BASE_URL || "http://localhost:3000",
+    },
   },
 });

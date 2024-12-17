@@ -1,6 +1,6 @@
-<script setup>
+<script setup lang="js">
 useHead({
-  title: "JROCH - Nuxt with API",
+  title: "Nuxt with API",
   meta: [
     { charset: "UTF-8" },
     { name: "viewport", content: "width=device-width, initial-scale=1.0" },
@@ -38,7 +38,7 @@ useHead({
 
 <template>
   <div>
-    <NuxtLoadingIndicator class="w-full h-[2px]" />
+    <NuxtLoadingIndicator :height="2" />
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
