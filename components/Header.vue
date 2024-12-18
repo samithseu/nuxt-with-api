@@ -1,9 +1,9 @@
 <script setup lang="js">
 const navLinks = [
-  { name: "About", path: "/about" },
-  { name: "Contact", path: "/contact" },
-  { name: "Blog", path: "/blog" },
-  { name: "Achievements", path: "/achievements" },
+  { name: "Todos", path: "todos" },
+  { name: "Contact", path: "contact" },
+  { name: "Blog", path: "blog" },
+  { name: "Achievements", path: "achievements" },
 ]
 </script>
 
@@ -24,8 +24,13 @@ const navLinks = [
       >
         <li v-for="link in navLinks" :key="link.name">
           <NuxtLink
-            class="text-lg font-semibold duration-200 hover:text-green-500"
-            :to="link.path"
+            active-class="text-green-400"
+            :class="`${
+              $route.path.startsWith(`/${link.path}`)
+                ? 'text-green-400'
+                : 'text-white'
+            } text-lg font-semibold duration-200 hover:text-green-500`"
+            :to="`/${link.path}`"
             >{{ link.name }}</NuxtLink
           >
         </li>

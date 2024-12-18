@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  routeRules: {
+    "/": { static: true },
+    "/todos": { static: true },
+    "/contact": { static: true },
+    "/blog": { isr: 60 * 60, static: true },
+    "/blog/**": { isr: 60 * 60, static: true },
+    "/achievements": { ssr: true },
+  },
   compatibilityDate: "2024-11-01",
   devtools: { enabled: true },
   css: ["~/assets/css/main.css"],
