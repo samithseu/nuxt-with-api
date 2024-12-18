@@ -1,27 +1,19 @@
 # Nuxt with API
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+This project created with [Nuxt 3](https:nuxt.com) to explore more about Vue.JS technology. I also created two `GET` APIs for sharing data with frontend and other use.
 
-## Setup
+## Two `GET` APIs
 
-Install dependencies:
+- Todos: <https://jroch-nuxt.vercel.app/api/todos>
+- Blogs: <https://jroch-nuxt.vercel.app/api/blogs>
+
+## Using
 
 ```bash
+#  install dependencies
 npm install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
+#  run dev server
 npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
+#  build for prod
 npm run build
 ```
