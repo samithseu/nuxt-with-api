@@ -1,6 +1,6 @@
 # Nuxt with API
 
-This project created with [Nuxt 3](https:nuxt.com) to explore more about Vue.JS technology. I also created two `GET` APIs for sharing data with frontend and other use.
+This project created with [Nuxt 3](https://nuxt.com) to explore more about Vue.JS technology. I also created two `GET` APIs for sharing data with frontend and other use.
 
 ## Two `GET` APIs
 
