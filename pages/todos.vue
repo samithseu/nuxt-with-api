@@ -11,19 +11,20 @@ const { data: todos } = await useFetch("/api/todos");
 
 <template>
   <div>
-    <h1 class="text-2xl text-green-500 font-bold mb-4">Todos</h1>
+    <h1 class="text-2xl text-green-500 font-bold mb-4">
+      Todos - {{ todos.length }}
+    </h1>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <NuxtLink
+      <GradientBorder
         v-for="todo in todos"
         :key="todo.id"
-        class="text-center w-full h-max bg-gradient-to-br from-green-500 from-10% bg-black via-30% to-black p-[3px] rounded-[11px] hover:to-green-500 duration-300"
+        to="/todos"
+        target="_self"
       >
-        <div class="bg-black w-full h-max px-4 py-2 font-semibold rounded-lg">
-          <p class="text-nowrap overflow-hidden overflow-ellipsis">
-            {{ todo.title }}
-          </p>
-        </div>
-      </NuxtLink>
+        <p class="text-nowrap overflow-hidden overflow-ellipsis text-center">
+          {{ todo.title }}
+        </p>
+      </GradientBorder>
     </div>
   </div>
 </template>
