@@ -40,7 +40,7 @@ export default defineCachedEventHandler(
     }
   },
   {
-    maxAge: 60 * 30, //30 minutes,
+    maxAge: 60 * 5, //5 minutes,
     staleMaxAge: 30,
     swr: true,
   }
